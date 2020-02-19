@@ -2,7 +2,7 @@
   "projects": {
     "123": {
       "project_name": "",
-      "current_status": "framing",
+      "current_status": "temp_step2_name",
       "category": "",
       "problem_statement": "",
       "team_member_ids": [
@@ -14,6 +14,11 @@
         "assumption_id_123",
         "assumption_id_234",
         "assumption_id_345"
+      ],
+      "hypothesis_ids": [
+        "hypothesis_id_123",
+        "hypothesis_id_234",
+        "hypothesis_id_345"
       ]
     }
   }
