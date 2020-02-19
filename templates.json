@@ -1,0 +1,95 @@
+{
+  "intro_to_templates":
+  {
+    "text":"These templates (in finished state) will be completely empty, using reference IDs in lists",
+    "more_text":"When building a card in GUI, every field is required to submit project for review",
+    "even_more_text":"At completion of a major step, approver review required to proceed to next step",
+    "text2":"Enforce review of project when steps are completed - project cannot proceed without completion of steps",
+    "text3":"Changes to previous steps are allowed - a project in step2 can change or add to team members and assumptions"
+  },
+  
+  
+  "project_template_framing": {
+    "comment":"Step2 name and what fields are required at this stage?",
+    
+    "project_id": {
+      "project_name": "",
+      "current_status": "framing",
+      "category": "",
+      "problem_statement": "",
+      "team_member_ids": [
+        "member_id_123",
+        "member_id_234",
+        "member_id_345"
+      ],
+      "assumption_ids": [
+        "assumption_id_123",
+        "assumption_id_234",
+        "assumption_id_345"
+      ]
+    }
+  },
+  "project_template_step2":{
+    "comment":"Step2 name and what fields are required at this stage?",
+    
+    "project_id": {
+      "project_name": "",
+      "current_status": "step2",
+      "category": "",
+      "problem_statement": "",
+      "team_member_ids": [
+        "member_id_123",
+        "member_id_234",
+        "member_id_345"
+      ],
+      "assumption_ids": [
+        "assumption_id_123",
+        "assumption_id_234",
+        "assumption_id_345"
+      ],
+      "hypothesis_ids": [
+        "hypothesis_id_123",
+        "hypothesis_id_234",
+        "hypothesis_id_345"
+      ]
+    }
+  },
+  "team_member_template":
+  {
+    "comment":"What are mandatory fields for a team member?",
+    
+    "team_member_id":
+    {
+      "name":"",
+      "employee_id":"",
+      "role":""
+    }
+  },
+  "hypothesis_template":
+  {
+    "comment":"What are mandatory fields for a hypothesis?",
+    
+    "hypothesis_id":
+    {
+
+    }
+  },
+  "assumption_template":
+  {
+    "comment":"What are mandatory fields for an assumption?",
+    
+    "assumption_id":
+    {
+
+    }
+  },
+  "experiment_template":
+  {
+    "comment":"What are mandatory fields for an experiment?",
+    
+    "experiment_id":
+    {
+
+    }
+  }
+}
