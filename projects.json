@@ -1,0 +1,20 @@
+{
+  "projects": {
+    "123": {
+      "project_name": "",
+      "current_status": "framing",
+      "category": "",
+      "problem_statement": "",
+      "team_member_ids": [
+        "member_id_123",
+        "member_id_234",
+        "member_id_345"
+      ],
+      "assumption_ids": [
+        "assumption_id_123",
+        "assumption_id_234",
+        "assumption_id_345"
+      ]
+    }
+  }
+}
