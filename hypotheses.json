@@ -3,15 +3,30 @@
   {
     "hypothesis_id_123":
     {
-
+      "hypothesis_description":"ipsem lorem",
+      "type":"desirability",
+      "business_model_impact":"customer_profile",
+      "tags":["tag_2"],
+      "creator":"member_id_123",
+      "status":"ipsem lorem"
     },
     "hypothesis_id_234":
     {
-
+      "hypothesis_description":"",
+      "type":"viability",
+      "business_model_impact":"cost_structure",
+      "tags":["tag_4"],
+      "creator":"member_id_123",
+      "status":"ipsem lorem"
     },
     "hypothesis_id_345":
     {
-
+      "hypothesis_description":"",
+      "type":"feasibility",
+      "business_model_impact":"key_activities",
+      "tags":["tag_1"],
+      "creator":"member_id_123",
+      "status":"ipsem lorem"
     }
   }
 }

@@ -3,15 +3,30 @@
   {
     "assumption_id_123":
     {
-
+	"hypothesis_description":"ipsem lorem",
+	"type":"desirability",
+	"business_model_impact":"value_map",
+	"tags":["tag_1", "tag_2"],
+	"creator":"member_id_123",
+	"status":"in-progress"
     },
     "assumption_id_234":
     {
-
+	"hypothesis_description":"ipsem lorem",
+	"type":"viability",
+	"business_model_impact":"revenue_streams",
+	"tags":["tag_3"],
+	"creator":"member_id_123",
+	"status":"in-progress"
     },
     "assumption_id_345":
     {
-
+	"hypothesis_description":"ipsem lorem",
+	"type":"feasibility",
+	"business_model_impact":"key_resources",
+	"tags":["tag_4", "tag_5"],
+	"creator":"member_id_123",
+	"status":"in-progress"
     }
   }
 }

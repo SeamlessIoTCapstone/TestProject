@@ -1,10 +1,10 @@
 {
   "projects": {
     "123": {
-      "project_name": "",
+      "project_name": "project lorem",
       "current_status": "temp_step2_name",
-      "category": "",
-      "problem_statement": "",
+      "category": "ipsem lorem",
+      "problem_statement": "ipsem lorem",
       "team_member_ids": [
         "member_id_123",
         "member_id_234",
