@@ -68,28 +68,80 @@
   "hypothesis_template":
   {
     "comment":"What are mandatory fields for a hypothesis?",
+    "hypothesis_types_and_impact":
+    {
+      "desirability":["customer_profile", "value_map", "customer_segments", "channels", "value_propositions", "customer_relationships"],
+      "viability":["revenue_streams", "cost_structure", "profit"],
+      "feasibility":["key_activities", "key_resources", "key_partners"]
+    },
     
     "hypothesis_id":
     {
-
+      "hypothesis_description":"",
+      "type":"",
+      "business_model_impact":"",
+      "tags":[],
+      "creator":"member_id_123",
+      "status":""
     }
   },
   "assumption_template":
   {
-    "comment":"What are mandatory fields for an assumption?",
+    "comment":"Assumption should be created with 1 of the assumption types, and select one of the impacts in list ",
+    
+    "assumption_types_and_impact":
+    {
+      "desirability":["customer_profile", "value_map", "customer_segments", "channels", "value_propositions", "customer_relationships"],
+      "viability":["revenue_streams", "cost_structure", "profit"],
+      "feasibility":["key_activities", "key_resources", "key_partners"]
+    },
     
     "assumption_id":
     {
-
+      "assumption_description":"",
+      "type":"",
+      "business_model_impact":"",
+      "tags":[],
+      "creator":"member_id_123",
+      "status":""
     }
   },
-  "experiment_template":
+  "test_template":
   {
     "comment":"What are mandatory fields for an experiment?",
+    "deadline_comment": "Should be future date",
+    "assigned_to_comment":"Pulled from team_members.json for selection",
+    "hypothesis_comment":"Should be prefaced with *We believe that ___* ",
+    "urgency_comment":"value from 1-5",
+    "test_description_comment":"Should preface with *To verify that we will ___* ",
+    "data_reliability_comment":"value from 1-5, add after test has been completed",
+    "metric_comment":"preface with *and measure ___ *",
+    "criteria_comment":"preface with *We are right if ___* ",
     
-    "experiment_id":
+    "test_id":
     {
-
+      "test_name":"",
+      "deadline":"dd-mm-yyyy",
+      "assigned_to":"member_id_123",
+      "relevant_project":"project_id_123",
+      "duration":"x days to deadline",
+      "hypothesis":"hypothesis_id_123",
+      "urgency":"1",
+      "test_description":"ipsem lorem",
+      "test_cost":"$$$",
+      "data_reliability":"1",
+      "metric":"ipsem lorem",
+      "criteria":"ipsem lorem"
+    }
+  },
+  "learning_template":
+  {
+    "comment1":"completed tests become learning cards after deadline has passed",
+    "comment2":"After a test deadline has passed, assignee gets notification to complete test template or extend deadline",
+    
+    "learning_id":
+    {
+      
     }
   }
 }
